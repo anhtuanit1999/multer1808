@@ -7,12 +7,12 @@
     <title>Upload</title>
 </head>
 <body>
-    <form action="/singup" method="POST">
+    <form action="/signup" method="POST" enctype="multipart/form-data">
         <input type="text" placeholder="Enter your email" name="email">
         <br><br>
         <input type="text" placeholder="Enter your password" name="password">
         <br><br>
-        <input type="file">
+        <input type="file" name="profile">
         <br><br>
         <button>Sign up</button>
     </form>
