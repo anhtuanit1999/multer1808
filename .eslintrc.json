@@ -4,6 +4,7 @@
 
 //tạo git
 //npm init -y
+//npm i express
 //npm eslint-config-rallycoding --save-dev (.eslintrc.json)
 //npm i nodemon -g (auto load server)
 //npm i reload --save-dev (auto load http)
