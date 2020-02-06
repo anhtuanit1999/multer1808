@@ -2,7 +2,12 @@ const express = require('express'); //eslint-disable-line
 const reload = require('reload'); //eslint-disable-line
 const multer = require('multer');
 
-const upload = multer({ dest: './public' });
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => cb(null, './public'),
+    filename: (req, file, cb) => cb(null, 'big-' + file.originalname)
+});
+
+const upload = multer({ storage });
 
 const app = express();
 
