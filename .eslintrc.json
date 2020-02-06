@@ -1,0 +1,17 @@
+{
+    "extends": "rallycoding",
+    "rules": {
+      "arrow-body-style": 0
+      }
+}
+
+//tạo git
+//npm init -y
+//npm i express --save-dev
+//npm i ejs --save-dev
+//npm i reload --save-dev (auto load http)
+//npm eslint-config-rallycoding --save-dev (.eslintrc.json)
+//npm i nodemon -g (auto load server)
+//nodemon index.js -e js,ejs (tu dong hoa cac file extension)
+//thêm "start": "nodemon index.js -e js,ejs" vào script trong package.json => npm start
+//yarn add multer

@@ -1,0 +1,30 @@
+{
+  "name": "multer1808",
+  "version": "1.0.0",
+  "description": "học multer\r https://www.youtube.com/watch?v=uLJH_nkcNDs&list=PLskv-UQHb1ihcsWVMHIvjjBWnoGkhNc_1&index=11\r buổi 10 của khoa phạm https://github.com/vanpho93/multer1808",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js -e js,ejs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngocdungbb1/multer1808.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngocdungbb1/multer1808/issues"
+  },
+  "homepage": "https://github.com/ngocdungbb1/multer1808#readme",
+  "devDependencies": {
+    "ejs": "^3.0.1",
+    "eslint-config-rallycoding": "^3.2.0",
+    "express": "^4.17.1",
+    "reload": "^3.0.4"
+  },
+  "dependencies": {
+    "multer": "^1.4.2"
+  }
+}
