@@ -1,13 +1,7 @@
 const express = require('express'); //eslint-disable-line
 const reload = require('reload'); //eslint-disable-line
-const multer = require('multer');
 
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => cb(null, './public'),
-    filename: (req, file, cb) => cb(null, 'big-' + file.originalname)
-});
-
-const upload = multer({ storage });
+const upload = require('./uploadConfig');
 
 const app = express();
 
@@ -30,3 +24,4 @@ reload(app);
 app.listen(PORT, () => {
     console.log(`Server listen at port ${PORT}.`);
 });
+
